@@ -1,7 +1,6 @@
-import * as THREE from 'three';
+import * as THREE from './node_modules/three/build/three.module';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { CubeControls } from './cube-controls';
-import { Clock } from 'three/webgpu';
 
 // Scena
 const scene = new THREE.Scene();
